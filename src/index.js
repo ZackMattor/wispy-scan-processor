@@ -60,12 +60,12 @@ if(!ARCHIVE_LOCATION && !WIGGLE_API_KEY) {
 
       // Wait long enough for the WiSpy to boot up normally...
       console.log('Finished processing scans data. Going to wait long enough for the WiSpy to boot normally.')
-      await sleep(70000);
+      await sleep(90000);
     } catch(e) {
       console.error('Something went wrong trying to pull the scan data...', e);
 
       // Wait long enough for the WiSpy to boot up normally...
-      await sleep(70000);
+      await sleep(90000);
     }
   }
 })()
