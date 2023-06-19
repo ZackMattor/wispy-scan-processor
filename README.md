@@ -7,7 +7,7 @@ This application is an attempt to make processing scan data from wardriving a bi
  - Install node 19 (Using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) is recommented)
  - Clone this repo - `git clone git@github.com:ZackMattor/wispy-scan-processor.git`
  - Install packages `npm install`
- - Copy `.env.sample to .env` and populate values (See the Environment Variables section below)
+ - Copy `.env.sample` to `.env` and populate values (See the Environment Variables section below)
  - Start the process `npm start`
 
 ## Lifecycle
