@@ -1,6 +1,6 @@
 # WiSpy Scan Processor
 
-This application is an attempt to make processing scan data from wardriving a bit easier. It integrates with the foo firmware for the [WiSpy hackerbox](https://hackerboxes.com/products/hackerbox-0089-wispy). 
+This application is an attempt to make processing scan data from wardriving a bit easier. It integrates with [Joseph Hewitt's firmware](https://github.com/JosephHewitt/wardriver_rev3) for the [WiSpy hackerbox](https://hackerboxes.com/products/hackerbox-0089-wispy). Once you have your device configured to connect to your network on boot, this application can be run on a device on the same network and automatically process scan data once it detects the WiSpy connected. It can both upload files directly to your [Wiggle Account](https://wigle.net/), and/or copy them to a local directory of your chosing.
 
 ## Quick Start
 
